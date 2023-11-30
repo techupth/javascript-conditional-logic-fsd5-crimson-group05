@@ -1,5 +1,5 @@
 function calculateStudentGrade(score) {
-  switch (true) {
+  switch (typeof (score == "number")) {
     case score >= 90 && score <= 100:
       return "A";
       break;
